@@ -1,1 +1,1 @@
-# hybrid-multilingual-claim-decomposition
+This repository contains data, intended for reproducibility of a relevant research paper about multilingual claim decomposition. Its contents include the code, used for performing decomposition as well as the code of two-level evaluation procedure, used to assess the decomposition quality. The data directory contains a dataset used in the relevant study with claim_id, cluster_id, and language, taken from the original MultiClaim dataset from the MultiClaimNet collection.
