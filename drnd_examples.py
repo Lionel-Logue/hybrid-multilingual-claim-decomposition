@@ -1,0 +1,182 @@
+STATIC_EXAMPLES = [
+    {
+        "language": "en",
+        "sentence": "Michael Collins, born on October 31, 1930, is a retired American astronaut and test pilot.",
+        "translation": "Michael Collins, born on October 31, 1930, is a retired American astronaut and test pilot.",
+        "facts": [
+            {"original": "Michael Collins was born in October.", "english": "Michael Collins was born in October."},
+            {"original": "Michael Collins was born on the 31st day of a month.", "english": "Michael Collins was born on the 31st day of a month."},
+            {"original": "Michael Collins was born in 1930.", "english": "Michael Collins was born in 1930."},
+            {"original": "Michael Collins is retired.", "english": "Michael Collins is retired."},
+            {"original": "Michael Collins is American.", "english": "Michael Collins is American."},
+            {"original": "Michael Collins was an astronaut.", "english": "Michael Collins was an astronaut."},
+            {"original": "Michael Collins was a test pilot.", "english": "Michael Collins was a test pilot."},
+        ],
+    },
+    {
+        "language": "de",
+        "sentence": "Angela Merkel war von 2005 bis 2021 die Bundeskanzlerin Deutschlands und ist promovierte Physikerin.",
+        "translation": "Angela Merkel was the Chancellor of Germany from 2005 to 2021 and is a physicist with a doctorate.",
+        "facts": [
+            {"original": "Angela Merkel war Bundeskanzlerin.", "english": "Angela Merkel was Chancellor."},
+            {"original": "Angela Merkel war Bundeskanzlerin Deutschlands.", "english": "Angela Merkel was Chancellor of Germany."},
+            {"original": "Angela Merkel begann ihre Kanzlerschaft 2005.", "english": "Angela Merkel began her chancellorship in 2005."},
+            {"original": "Angela Merkel beendete ihre Kanzlerschaft 2021.", "english": "Angela Merkel ended her chancellorship in 2021."},
+            {"original": "Angela Merkel ist Physikerin.", "english": "Angela Merkel is a physicist."},
+            {"original": "Angela Merkel ist promoviert.", "english": "Angela Merkel holds a doctorate."},
+        ],
+    },
+    {
+        "language": "fr",
+        "sentence": "Paris, fondée par les Romains, est la capitale de la France et accueille plus de 12 millions de touristes par an.",
+        "translation": "Paris, founded by the Romans, is the capital of France and hosts more than 12 million tourists per year.",
+        "facts": [
+            {"original": "Paris a été fondée par les Romains.", "english": "Paris was founded by the Romans."},
+            {"original": "Paris est la capitale de la France.", "english": "Paris is the capital of France."},
+            {"original": "Paris accueille des touristes.", "english": "Paris hosts tourists."},
+            {"original": "Le nombre de touristes à Paris dépasse 12 millions par an.", "english": "The number of tourists in Paris exceeds 12 million per year."},
+        ],
+    },
+    {
+        "language": "es",
+        "sentence": "Gabriel García Márquez, escritor colombiano, ganó el Premio Nobel de Literatura en 1982 por su novela.",
+        "translation": "Gabriel García Márquez, a Colombian writer, won the Nobel Prize in Literature in 1982 for his novel.",
+        "facts": [
+            {"original": "Gabriel García Márquez era escritor.", "english": "Gabriel García Márquez was a writer."},
+            {"original": "Gabriel García Márquez era colombiano.", "english": "Gabriel García Márquez was Colombian."},
+            {"original": "Gabriel García Márquez ganó el Premio Nobel.", "english": "Gabriel García Márquez won the Nobel Prize."},
+            {"original": "Gabriel García Márquez ganó el Premio Nobel de Literatura.", "english": "Gabriel García Márquez won the Nobel Prize in Literature."},
+            {"original": "Gabriel García Márquez ganó el premio en 1982.", "english": "Gabriel García Márquez won the prize in 1982."},
+            {"original": "Gabriel García Márquez ganó el premio por su novela.", "english": "Gabriel García Márquez won the prize for his novel."},
+        ],
+    },
+    {
+        "language": "uk",
+        "sentence": "Тарас Шевченко, народжений 9 березня 1814 року в селі Моринці, був українським поетом і художником.",
+        "translation": "Taras Shevchenko, born on March 9, 1814 in the village of Moryntsi, was a Ukrainian poet and painter.",
+        "facts": [
+            {"original": "Тарас Шевченко народився 9 березня.", "english": "Taras Shevchenko was born on March 9."},
+            {"original": "Тарас Шевченко народився 1814 року.", "english": "Taras Shevchenko was born in 1814."},
+            {"original": "Тарас Шевченко народився в селі Моринці.", "english": "Taras Shevchenko was born in the village of Moryntsi."},
+            {"original": "Тарас Шевченко був українцем.", "english": "Taras Shevchenko was Ukrainian."},
+            {"original": "Тарас Шевченко був поетом.", "english": "Taras Shevchenko was a poet."},
+            {"original": "Тарас Шевченко був художником.", "english": "Taras Shevchenko was a painter."},
+        ],
+    },
+    {
+        "language": "pt",
+        "sentence": "O Rio Amazonas, o maior rio do mundo em volume de água, atravessa o Brasil de oeste a leste.",
+        "translation": "The Amazon River, the largest river in the world by water volume, crosses Brazil from west to east.",
+        "facts": [
+            {"original": "O Rio Amazonas é um rio.", "english": "The Amazon River is a river."},
+            {"original": "O Rio Amazonas é o maior rio do mundo em volume de água.", "english": "The Amazon River is the largest river in the world by water volume."},
+            {"original": "O Rio Amazonas atravessa o Brasil.", "english": "The Amazon River crosses Brazil."},
+            {"original": "O Rio Amazonas atravessa o Brasil de oeste a leste.", "english": "The Amazon River crosses Brazil from west to east."},
+        ],
+    },
+    {
+        "language": "pl",
+        "sentence": "Fryderyk Chopin, urodzony w 1810 roku w Żelazowej Woli, był polskim kompozytorem i pianistą.",
+        "translation": "Frédéric Chopin, born in 1810 in Żelazowa Wola, was a Polish composer and pianist.",
+        "facts": [
+            {"original": "Fryderyk Chopin urodził się w 1810 roku.", "english": "Frédéric Chopin was born in 1810."},
+            {"original": "Fryderyk Chopin urodził się w Żelazowej Woli.", "english": "Frédéric Chopin was born in Żelazowa Wola."},
+            {"original": "Fryderyk Chopin był Polakiem.", "english": "Frédéric Chopin was Polish."},
+            {"original": "Fryderyk Chopin był kompozytorem.", "english": "Frédéric Chopin was a composer."},
+            {"original": "Fryderyk Chopin był pianistą.", "english": "Frédéric Chopin was a pianist."},
+        ],
+    },
+]
+
+DYNAMIC_POOL = [
+    {
+        "language": "it",
+        "sentence": "Leonardo da Vinci, nato nel 1452 a Vinci, era un pittore e inventore italiano del Rinascimento.",
+        "translation": "Leonardo da Vinci, born in 1452 in Vinci, was an Italian painter and inventor of the Renaissance.",
+        "facts": [
+            {"original": "Leonardo da Vinci è nato nel 1452.", "english": "Leonardo da Vinci was born in 1452."},
+            {"original": "Leonardo da Vinci è nato a Vinci.", "english": "Leonardo da Vinci was born in Vinci."},
+            {"original": "Leonardo da Vinci era italiano.", "english": "Leonardo da Vinci was Italian."},
+            {"original": "Leonardo da Vinci era un pittore.", "english": "Leonardo da Vinci was a painter."},
+            {"original": "Leonardo da Vinci era un inventore.", "english": "Leonardo da Vinci was an inventor."},
+            {"original": "Leonardo da Vinci era del Rinascimento.", "english": "Leonardo da Vinci was from the Renaissance."},
+        ],
+    },
+    {
+        "language": "tr",
+        "sentence": "İstanbul, Türkiye'nin en kalabalık şehri olup Avrupa ve Asya kıtalarını birbirine bağlar.",
+        "translation": "Istanbul, the most populous city in Turkey, connects the continents of Europe and Asia.",
+        "facts": [
+            {"original": "İstanbul bir şehirdir.", "english": "Istanbul is a city."},
+            {"original": "İstanbul Türkiye'nin en kalabalık şehridir.", "english": "Istanbul is the most populous city in Turkey."},
+            {"original": "İstanbul Avrupa kıtasını Asya kıtasına bağlar.", "english": "Istanbul connects the continent of Europe to the continent of Asia."},
+        ],
+    },
+    {
+        "language": "nl",
+        "sentence": "Vincent van Gogh, geboren op 30 maart 1853, was een Nederlandse kunstschilder bekend om zijn postimpressionistische werken.",
+        "translation": "Vincent van Gogh, born on March 30, 1853, was a Dutch painter known for his post-impressionist works.",
+        "facts": [
+            {"original": "Vincent van Gogh is geboren op 30 maart.", "english": "Vincent van Gogh was born on March 30."},
+            {"original": "Vincent van Gogh is geboren in 1853.", "english": "Vincent van Gogh was born in 1853."},
+            {"original": "Vincent van Gogh was Nederlands.", "english": "Vincent van Gogh was Dutch."},
+            {"original": "Vincent van Gogh was een kunstschilder.", "english": "Vincent van Gogh was a painter."},
+            {"original": "Vincent van Gogh is bekend om zijn postimpressionistische werken.", "english": "Vincent van Gogh is known for his post-impressionist works."},
+        ],
+    },
+    {
+        "language": "ro",
+        "sentence": "Universitatea din București, fondată în 1864, este cea mai mare universitate din România.",
+        "translation": "The University of Bucharest, founded in 1864, is the largest university in Romania.",
+        "facts": [
+            {"original": "Universitatea din București este o universitate.", "english": "The University of Bucharest is a university."},
+            {"original": "Universitatea din București a fost fondată în 1864.", "english": "The University of Bucharest was founded in 1864."},
+            {"original": "Universitatea din București este cea mai mare universitate din România.", "english": "The University of Bucharest is the largest university in Romania."},
+        ],
+    },
+    {
+        "language": "no",
+        "sentence": "Edvard Munch, født i 1863 i Løten, var en norsk maler og grafiker.",
+        "translation": "Edvard Munch, born in 1863 in Løten, was a Norwegian painter and printmaker.",
+        "facts": [
+            {"original": "Edvard Munch ble født i 1863.", "english": "Edvard Munch was born in 1863."},
+            {"original": "Edvard Munch ble født i Løten.", "english": "Edvard Munch was born in Løten."},
+            {"original": "Edvard Munch var norsk.", "english": "Edvard Munch was Norwegian."},
+            {"original": "Edvard Munch var maler.", "english": "Edvard Munch was a painter."},
+            {"original": "Edvard Munch var grafiker.", "english": "Edvard Munch was a printmaker."},
+        ],
+    },
+    {
+        "language": "id",
+        "sentence": "Jakarta, ibu kota Indonesia, memiliki populasi lebih dari 10 juta jiwa dan terletak di pulau Jawa.",
+        "translation": "Jakarta, the capital of Indonesia, has a population of more than 10 million people and is located on the island of Java.",
+        "facts": [
+            {"original": "Jakarta adalah ibu kota Indonesia.", "english": "Jakarta is the capital of Indonesia."},
+            {"original": "Jakarta memiliki populasi lebih dari 10 juta jiwa.", "english": "Jakarta has a population of more than 10 million people."},
+            {"original": "Jakarta terletak di pulau Jawa.", "english": "Jakarta is located on the island of Java."},
+        ],
+    },
+    {
+        "language": "hi",
+        "sentence": "महात्मा गांधी, जिनका जन्म 2 अक्टूबर 1869 को हुआ, भारतीय स्वतंत्रता आंदोलन के नेता थे।",
+        "translation": "Mahatma Gandhi, born on October 2, 1869, was the leader of the Indian independence movement.",
+        "facts": [
+            {"original": "महात्मा गांधी का जन्म 2 अक्टूबर को हुआ।", "english": "Mahatma Gandhi was born on October 2."},
+            {"original": "महात्मा गांधी का जन्म 1869 में हुआ।", "english": "Mahatma Gandhi was born in 1869."},
+            {"original": "महात्मा गांधी भारतीय थे।", "english": "Mahatma Gandhi was Indian."},
+            {"original": "महात्मा गांधी स्वतंत्रता आंदोलन के नेता थे।", "english": "Mahatma Gandhi was a leader of the independence movement."},
+            {"original": "स्वतंत्रता आंदोलन भारतीय था।", "english": "The independence movement was Indian."},
+        ],
+    },
+    {
+        "language": "ar",
+        "sentence": "القاهرة، عاصمة مصر، هي أكبر مدينة في العالم العربي وتقع على ضفاف نهر النيل.",
+        "translation": "Cairo, the capital of Egypt, is the largest city in the Arab world and is located on the banks of the Nile River.",
+        "facts": [
+            {"original": "القاهرة عاصمة مصر.", "english": "Cairo is the capital of Egypt."},
+            {"original": "القاهرة مدينة.", "english": "Cairo is a city."},
+            {"original": "القاهرة هي أكبر مدينة في العالم العربي.", "english": "Cairo is the largest city in the Arab world."},
+            {"original": "القاهرة تقع على ضفاف نهر النيل.", "english": "Cairo is located on the banks of the Nile River."},
+        ],
+    },
+]
